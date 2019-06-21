@@ -9,4 +9,5 @@ const  Async_Date=(url,method,data)=>{
  var a= Async_Date('hwxm/jsonp/jsp.json')
 
 const asd=process.env.NODE_ENV==="development"
-console.log(a,asd,process.env)
+// console.log(a,asd,process.env)
+console.log(a)
