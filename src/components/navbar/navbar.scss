@@ -1,0 +1,40 @@
+.navbar {
+  height: .45rem;
+  text-align: center;
+  line-height: .45rem;
+  font-size: .25rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  padding:.07rem 0 0 .2rem;
+  background-color: #f8f8f8;
+  input {
+    outline: none;
+    width: 2.65rem;
+    height: .3rem;
+    border-radius: .06rem;
+    color: rgba(136, 136, 136, 1);
+    font-size: .14rem;
+    text-align: left;
+    font-family: Microsoft Yahei;
+    border: 1px solid rgba(187, 187, 187, 1);
+    float: left;
+    padding-left: 2px;
+   
+  }
+
+  span {
+    float: left;
+    margin-left: .15rem;
+    width: .54rem;
+    height: .3rem;
+    line-height: .3rem;
+    border-radius: .06rem;
+    color: rgba(16, 16, 16, 1);
+    font-size: .14rem;
+    text-align: center;
+    font-family: Arial;
+    border: 1px solid rgba(187, 187, 187, 1);
+  }
+}

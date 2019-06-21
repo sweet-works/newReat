@@ -1,0 +1,132 @@
+.home {
+    .center {
+        padding: .19rem;
+
+        .title {
+            display: flex;
+            vertical-align: baseline;
+
+            h3 {
+                color: #101010;
+                font-size: .16rem;
+                width: 0.64rem;
+                height: .22rem;
+            }
+
+            span {
+                color: #c5c5c5;
+                font-size: .14rem;
+                height: .2rem;
+                margin-left: .08rem;
+            }
+        }
+
+        .bar {
+            span {
+                float: left;
+                margin: 16px 0 0 18px;
+                width: 1.32rem;
+                height: .39rem;
+            }
+        }
+
+        .bar,
+        .bar2 {
+            width: 3.35rem;
+            height: 1.01rem;
+            font-size: .12rem;
+            color: #959292;
+            border: #bbbbbb solid 1px;
+            box-shadow: 1px 1px 1px 1px rgba(223, 223, 223, 1);
+            background-color: #fff;
+            margin: .1rem 0;
+
+            img {
+                width: 1rem;
+                height: 1rem;
+                float: left;
+                display: block;
+            }
+        }
+
+        .icons {
+            border-radius: 50%;
+            width: 0.35rem;
+            height: .35rem;
+            border: #bbb 1px solid;
+            float: right;
+            line-height: .32rem;
+            text-align: center;
+            margin: .26rem .24rem 0 0;
+
+            i {
+                margin-top: .05rem;
+                color: #C5C5C5;
+
+            }
+        }
+
+        .bar2 {
+            position: relative;
+            .bar2_right {
+                float: left;
+               padding-top: .1rem;
+                margin-left: .25rem;
+                text-align: left;
+                color: #101010;
+                font-size: .14rem;
+                 .last {
+                    float: right;
+                    width: 1.04rem;
+                    height: 0.39rem;
+                    line-height: .39rem;
+                    text-align: center;
+                    background-color: #E5E5E5;
+                    color: #101010;
+                    font-size:.14rem;
+                    position: absolute;
+                    right: 0;bottom: 0;
+                }
+            }
+        }
+        .active{
+            height: 1.2rem;
+            background-color: #e5e5e5;
+            margin-top:.1rem ;
+            box-shadow: 1px 1px 1px 1px rgba(223, 223, 223, 1);
+            text-align: left;
+            padding:.12rem 0 0 .68rem;
+            position: relative;
+            h1{
+                margin:0;
+                font-size: .2rem;color:#101010;
+            }
+            h2,h3{
+                color:#7d7d7d;font-size: .18rem;
+            }
+            h3{
+                font-size: .14rem;
+            }
+            .icons{
+                width: .45rem;height: 0.45rem;line-height: .45rem;
+                position: absolute;top:.15rem;right: 0;
+                background-color: #fff;
+               i{
+                   margin-top: .08rem
+               }
+            }
+        }
+        .tab{
+            display: flex;
+            widows: 100%;
+            span{
+                flex: 1;
+                height: .4rem;
+                border:1px #bbb solid;
+                text-align: center;line-height: .4rem;
+                font-size: .14rem;
+                color: #101010;
+            }
+        }
+    }
+}
